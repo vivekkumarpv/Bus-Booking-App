@@ -1,0 +1,60 @@
+.ticket-card {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 450px; /* Increase the width to your desired value */
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     
+  }
+  
+  .ticket-details-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between; /* Align values to the right */
+    align-items: center;
+    width:95%;
+  }
+  
+  
+  .ticket-header {
+    background-color: #0066cc;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .ticket-header h2 {
+    font-size: 22px;
+  }
+  
+  .ticket-details {
+    margin-top: 10px;
+  }
+  
+  .ticket-details p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  .ticket-details p:first-child {
+    margin-top: 5px;
+  }
+  
+  /* Style for the PNR number */
+  .ticket-details .pnr-number {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Style for the Price */
+  .ticket-details .price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff6600;
+  }
+  

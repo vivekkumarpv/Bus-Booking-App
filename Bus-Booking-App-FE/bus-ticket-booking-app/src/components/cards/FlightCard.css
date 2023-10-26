@@ -1,0 +1,51 @@
+/* FlightCard.css */
+.flight-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .flight-details {
+    font-size: 18px;
+  }
+  
+  .flight-details span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .flight-class-list {
+    margin-top: 10px;
+  }
+  
+  .flight-class-list div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .flight-class-list span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .view-details-button button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  .view-details-button button:hover {
+    background-color: #0056b3;
+  }
+  

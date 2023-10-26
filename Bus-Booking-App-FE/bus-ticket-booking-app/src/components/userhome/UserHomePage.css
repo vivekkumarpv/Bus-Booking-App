@@ -1,0 +1,224 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .homepage {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 480px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .trip-type {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+  }
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .input-fields input,
+  .input-fields select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .form-select {
+    appearance: none;
+    padding-right: 30px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M4 5l-4-4h8z'/%3E%3C/svg%3E") no-repeat;
+    background-position: right 12px center;
+    background-color: #fff;
+  }
+  
+  .btn-search {
+    background-color: #f37021;
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-search:hover {
+    background-color: #e35818;
+  }
+/* Add styles for the vertical scroll */
+/* Add styles for the vertical scroll */
+/* Existing styles... */
+
+/* Adjust the existing styles for .flight-search-results and .flight-cards-container */
+.flight-search-results {
+    overflow-y: auto;
+    max-height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column; /* Display FlightCards in a vertical layout */
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .flight-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 400px; /* Increase the width to make the card wider */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  /* Center the close button */
+  .flight-details-container button.close-button {
+    background-color: #f37021;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Make the button a block element */
+  }
+  
+  /* Existing styles... */
+  
+
+.flight-details-container button.close-button:hover {
+  background-color: #e35818;
+}
+
+/* Existing styles... */
+
+body {
+  background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F04%2F15%2Funited-airlines-zoom-sunset-UAZOOM0420.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* HomePage.css */
+
+/* Assuming this is the root element of your component */
+.homepage-container {
+  /* Set the background image URL to your local image file */
+  background-image: url('C:\Bus-Ticket-Booking-app Front end\bus-ticket-booking-app\src\userhomepage3.jpg'); /* Adjust the path */
+  /* Set background size and other properties as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Styles for the "Close" button */
+.close-button {
+  background-color: #ff0000; /* Change the background color to your desired color */
+  color: #ffffff; /* Change the text color to your desired color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  border-radius: 4px; /* Add border-radius for rounded corners */
+}
+
+.close-button:hover {
+  background-color: #ff3333; /* Change the hover background color */
+}
+
+/* Style for showing the flight search results */
+.flight-search-results.show {
+  display: block;
+}
+
+/* Style for hiding the flight search results */
+.flight-search-results.hide {
+  display: none;
+}
+
+/* Styles for the date inputs */
+.date-input {
+  width: 100%;
+  margin-bottom: 16px; /* Add spacing between date inputs */
+}
+
+.date-input label {
+  font-size: 16px;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.date-input input[type="date"] {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Styles for the checkboxes */
+.checkboxes {
+  margin-top: 16px; /* Add spacing between date inputs and checkboxes */
+}
+
+.checkbox-label {
+  font-size: 16px;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-right: 8px; /* Add spacing between checkbox and label */
+}
+/* Increase the width of the dropdown input */
+.dropdown-input {
+    width: 300px; /* Set the width to your desired value in pixels */
+  }
+  
+  /* Alternatively, you can use a percentage of the parent container's width */
+.dropdown-input {
+    width: 100%; /* Set the width to a percentage of the parent container */
+  }
+
+  .category-dropdown{
+    width: 100%; /* Set the width to 100% to expand the dropdown to the container's width */
+    padding: 16px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Add rounded corners */
+    font-size: 18px; /* Set the font size */
+    color: #444; /* Set the text color */
+    background-color: #fff; /* Set the background color */
+    
+  }
+
+  .loading{
+    color: white; 
+    margin-left: 30px;
+  }

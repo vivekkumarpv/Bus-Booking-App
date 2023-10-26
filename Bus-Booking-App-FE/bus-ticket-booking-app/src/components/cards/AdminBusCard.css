@@ -1,0 +1,22 @@
+/* AdminBusCard.css */
+.admin-bus-card {
+    background-color: rgba(255, 255, 255, 0.85); /* Set the background color to slightly transparent white */
+    color: #000; /* Set the text color to black */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .bus-details {
+    font-size: 18px;
+  }
+  
+  .bus-details span {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  

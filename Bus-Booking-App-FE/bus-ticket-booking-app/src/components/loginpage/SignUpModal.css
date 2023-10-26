@@ -1,0 +1,58 @@
+/* SignupModal.css */
+
+/* Style the modal content */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Style the form fields */
+  .modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the Create Account button */
+  .modal-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the Create Account button on hover */
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the close button in the modal header */
+  .modal-header .close {
+    color: #000;
+    
+  }
+  
+  /* Style the modal title */
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: auto;
+    align-items: center;
+  }
+  
+  /* Style the link to switch to the login modal */
+  .switch-login {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Style the link to switch to the login modal on hover */
+  .switch-login:hover {
+    text-decoration: underline;
+  }
+  

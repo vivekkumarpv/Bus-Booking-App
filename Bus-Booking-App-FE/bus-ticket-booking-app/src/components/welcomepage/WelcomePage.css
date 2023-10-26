@@ -1,0 +1,43 @@
+/* WelcomePage.css */
+
+/* Center the content both horizontally and vertically */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:\\Bus-Ticket-Booking-app Front end\\bus-ticket-booking-app\\src\\bus.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the content within a container */
+  .welcome-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for a card effect */
+  }
+  
+  /* Style the buttons with spacing */
+  .welcome-button {
+    margin: 10px; /* Add spacing between buttons */
+    padding: 10px 20px; /* Increase padding for larger buttons */
+    font-size: 16px; /* Increase font size */
+    border: none; /* Remove button border */
+    background-color: #007bff; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  }
+  
+  /* Hover effect for buttons */
+  .welcome-button:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+  }
+  
